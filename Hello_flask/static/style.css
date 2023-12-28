@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+}
+div.content {
+    color: rgb(202, 158, 202);
+    padding-left: 3rem;
+    padding-top: 16rem;
+    font-size: 3rem;
+}
+.content h1{
+    padding: 2rem 1rem;
+    font-size: 6rem;
+}
+.company-link{
+    text-decoration: none;
+    color: rgb(148, 147, 148);
+}
+nav ul {
+    display: flex;
+    float: left;
+    margin: 2rem 11rem;
+}
+nav ul li {
+    list-style: none;
+    margin: 16px 14px 1px 14px;
+}
+nav ul li a:hover{
+    border-bottom: 3px solid rgb(202, 158, 202);
+    border-radius: 4px;
+    color: white;
+}
+nav ul li a {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+}
+img.logo {
+    margin: 24px 54px;
+    border: 1 px solid silver;
+    border-radius: 51%;
+    height: 49px;
+    width: 49px;
+    position: relative;
+    right: 53rem;
+}
+.profile {
+    width: 100vw;
+    height: 241vh;
+    background-image: url('bg-aj.jpg');
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    background-position: right;
+    background-position-y: top;
+    background-attachment: scroll;    
+}
+.courses{
+    margin: 2.5rem 25rem;
+}
+.courses h2{
+    border-bottom: 3px solid rgb(202, 158, 202);
+    border-radius: 4px;
+}
+.courses ul {
+    margin: 0px 1rem;
+
+}
+.courses ul li {
+    list-style: circle ;
+    margin: 8px 28px;
+    color: wheat;
+}
+.container {
+    color: black;
+    margin: 11rem 4rem;
+}
+h2{
+    color: rgb(202, 158, 202);
+}
+h1.name{
+    color: rgb(202, 158, 202);
+}
+.about-us{
+    padding: 3rem;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    height: 130vh;
+    border-radius: 8px;
+    opacity: .9;
+}
+.about-us img {
+    margin: 1rem 4rem;
+    float: left;
+    width: 247px;
+    border: 3px solid rgb(110, 110, 110);
+    border: 3px solid rgb(202, 158, 202);
+    box-shadow: 1px purple;
+    border-radius: 8px;
+}
+.about-us h1{
+    color: rgb(202, 158, 202);
+    font-size: 4rem;
+    
+}
+.about-us p{
+    letter-spacing: 1.2px;
+    line-height: 22px;
+}
+.box{
+    margin: .1rem 1px;
+}
+.box h2{
+    font-size: 2.5rem;
+}
+.services{
+    display: flex;
+    
+}
+.services h2{
+    font-size: 3rem;
+}
+.services h3{
+    color: rgb(202, 158, 202);
+    padding: 18px 18px;
+    font-size: 2rem;
+
+}
+.services div{
+    margin: 15px auto;
+    width: 350px;
+    height: 350px;
+    /* border: 3px solid gray; */
+    background-color: rgb(26, 23, 23);
+    padding: 4px;
+    border-radius: 11px;
+}
+.services div p{
+padding: 7px 18px;
+}
+.services div span {
+    font-size: 3rem;
+padding: 8px 18px;
+}
+
+/* on focus */
+.services div:hover{
+    background-color: rgb(171, 4, 40);
+    transition-duration: .69s;
+    transition-property: all;
+    width: 360px;
+    height: 360px;
+}
+
+/* footer */
+.footer{
+    background-color: black;
+    display: flex;
+    padding: 3rem;
+}
+.footer h1{
+    color: rgb(202, 158, 202);
+    letter-spacing: 1px;
+    font-size: 4rem;
+}
+.footer div{
+    margin: 3rem auto;
+}
+.contact p{
+    margin: 1rem auto;
+}
+.contact p span {
+    margin: 11px;
+}
+.footer button {
+    margin: 2rem 2rem;
+    background-color: black;
+    color: rgb(202, 158, 202);
+    padding: 9px 24px;
+    border-radius: 5px;
+    border: 1px solid rgb(171, 4, 40);
+    font-size: 18px;
+    cursor: pointer;
+}
+.footer .contact-form{
+    width: 45vw;
+    margin: 4rem;
+}
+.contact-form textarea {
+    padding: 7px 26px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 6px;
+    font-size: 18px;
+    border: 1px solid black;
+    color: wheat;
+    font-family: sans-serif;
+}
+.contact-form input{
+    margin: 1rem auto;
+    width: 41vw;
+    height: 3rem;
+    background-color: rgb(26, 26, 26);
+    border-radius: 6px;
+    font-size: 18px;
+    border: 1px solid black;
+    color: wheat;
+    padding: 1px 26px;
+}
+.contact-form input:focus{
+    color: rgb(202, 158, 202);
+    border: 1px solid black;
+}
+button.submit {
+    position: relative;
+    left: 9rem;
+
+}
+button:hover{
+    transition: all .7s;
+    color: white;
+    background-color: rgb(171, 4, 40);
+}
+.social-logo{
+    width: 30px;
+    cursor: pointer;
+}
+a.read-more{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.end{
+    text-align: center;
+    position: relative;
+    top: -5rem;
+    letter-spacing: 2.5px;
+    left: -3rem;
+    color: rgb(63, 63, 63);
+    font-size: 20px;
+    font-weight: 700;
+}
